@@ -64,7 +64,7 @@ while cap.isOpened():
         break
     elif key == 32:  # Space
         if not recording:
-            out = cv2.VideoWriter('old fashioned style video.avi', fourcc, 20.0, (frame.shape[1], frame.shape[0]))
+            out = cv2.VideoWriter('old fashioned camera video.avi', fourcc, 20.0, (frame.shape[1], frame.shape[0]))
             recording = True
             blink_counter = 0  # 깜빡임 카운트트
         else:
