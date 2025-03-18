@@ -18,7 +18,8 @@ old fashioned camera 는 OpenCV를 활용하여 웹캠을 제어하고 녹화 �
 - 녹화된 영상은 `old fashioned camera video.avi` 파일로 저장됩니다.
 - 코덱 설정: `XVID` 코덱을 사용하여 `AVI` 형식으로 저장됩니다.
 - FPS 설정: 녹화는 `20.0 FPS`로 저장됩니다.
-![preview 모드](data/preview 화면.jpg)
+![미리보기 이미지](data/preview 화면.png)
+
 
 
 ### 3. 흑백 모드 (Gray Mode)
